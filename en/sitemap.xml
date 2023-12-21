@@ -223,6 +223,32 @@
                 href="https://omnigram.nexptr.com/en/docs/faq/"
                 />
   </url><url>
+    <loc>https://omnigram.nexptr.com/en/privacy_policy/</loc>
+    <lastmod>2023-12-21T15:24:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://omnigram.nexptr.com/zh/privacy_policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://omnigram.nexptr.com/en/privacy_policy/"
+                />
+  </url><url>
+    <loc>https://omnigram.nexptr.com/en/terms_conditions/</loc>
+    <lastmod>2023-12-21T15:24:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://omnigram.nexptr.com/zh/terms_conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://omnigram.nexptr.com/en/terms_conditions/"
+                />
+  </url><url>
     <loc>https://omnigram.nexptr.com/en/blog/</loc>
     <lastmod>2023-10-17T22:45:22+08:00</lastmod>
     <xhtml:link
