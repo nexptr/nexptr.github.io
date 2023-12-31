@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://omnigram.nexptr.com/zh/sitemap.xml</loc>
-    
-      <lastmod>2023-10-27T15:00:23+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://omnigram.nexptr.com/en/sitemap.xml</loc>
-    
-      <lastmod>2023-10-17T22:45:22+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://omnigram.nexptr.com/zh/sitemap.xml</loc><lastmod>2023-12-29T16:52:11+08:00</lastmod></sitemap><sitemap><loc>https://omnigram.nexptr.com/en/sitemap.xml</loc><lastmod>2023-12-29T16:52:11+08:00</lastmod></sitemap></sitemapindex>

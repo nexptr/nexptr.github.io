@@ -1,94 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>概览 on Omnigram App Docs</title>
-    <link>https://omnigram.nexptr.com/zh/docs/overview/</link>
-    <description>Recent content in 概览 on Omnigram App Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://omnigram.nexptr.com/zh/docs/overview/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Getting started</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/getting-started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/getting-started/</guid>
-      <description>Prerequisites Firstly, ensure you have installed the extended version of Hugo. See installation steps from Hugo&#39;s official docs.
-Getting up and running Read the prerequisites above and verify you&#39;re using the extended version of Hugo. There are at least two ways of quickly getting started with Hugo and the VMware Clarity theme:
-Option 1 (recommended) Generate a new Hugo site and add this theme as a Git submodule inside your themes folder:</description>
-    </item>
-    
-    <item>
-      <title>Features</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/features/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/features/</guid>
-      <description>Blog with tagging and category options
-Deeplinks
-Native Image Lazy Loading
-Customizable (see config)
-Dark Mode (with UI controls for user preference setting)
-Toggleable table of contents
-Flexible image configuration
-Logo alignment
-Mobile support with configurable menu alignment
-Syntax Highlighting
-Rich code block functions including:
-Copy to clipboard Toggle line wrap (dynamic) Toggle line numbers Language label Toggle block expansion/contraction (dynamic) To put it all in context, here is a preview showing all functionality.</description>
-    </item>
-    
-    <item>
-      <title>Customization</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/customize/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/customize/</guid>
-      <description>Configuration If set, jump over to the config.toml file and start configuring your site.
-This section will mainly cover settings that are unique to this theme. If something is not covered here (or elsewhere in this file), there&#39;s a good chance it is covered in this Hugo docs page.
-Global Parameters These options set global values that some pages or all pages in the site use by default.
-Parameter Value Type Overidable on Page author string no twitter string no largeTwitterCard boolean no ga_analytics string no description string yes introDescription string no numberOfTagsShown integer no fallBackOgImage file path (string) no codeMaxLines integer yes codeLineNumbers boolean yes mainSections array/string no centerLogo boolean no logo file path (string) no mobileNavigation string no figurePositionShow boolean yes figurePositionLabel string no customCSS array of file path (string) no customJS array of file path (string) no enforceLightMode boolean N/A enforceDarkMode boolean N/A titleSeparator string no comment boolean no Page Parameters These options can be set from a page frontmatter or via archetypes.</description>
-    </item>
-    
-    <item>
-      <title>Manipulating Images</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/images/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/images/</guid>
-      <description>Images Image figure captions You have the option of adding captions to images in blog posts and automatically prepending a desired string such as &amp;quot;Figure N&amp;quot; to the alt text. This is controlled via two global settings.
-figurePositionLabel is a string which will be prepended to any alt text of an article image. By default, this is set to &amp;quot;Figure.&amp;quot; And figurePositionShow controls, globally, whether to show this label. It does not affect whether to show the image alt text, only the prefix figure caption.</description>
-    </item>
-    
-    <item>
-      <title>Blogging</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/blogging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/blogging/</guid>
-      <description>Blog directory Edit the config.toml file and change the blogDir key. Value will be name of the folder where the blog articles reside.
-1[params] 2... 3blogDir = &amp;#34;blog&amp;#34; 4... For more info, see the Hugo docs.
-Mobile menu positioning The navigation menu when mobile browsing can be configured in config.toml to open right or left depending on preference. The &amp;quot;hamburger&amp;quot; menu icon will always display in the upper right hand corner regardless.</description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/syntax-highlighting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/syntax-highlighting/</guid>
-      <description>Code Display line numbers Choose whether to display line numbers within a code block globally with the parameter codeLineNumbers setting to true or false.
-1[params] 2... 3codeLineNumbers = true # Shows line numbers for all code blocks globally. 4... Limit code block height You can globally control the number of lines which are displayed by default for your code blocks. Code which has the number of lines exceed this value will dynamically cause two code block expansion buttons to appear, allowing the user to expand to full length and contract.</description>
-    </item>
-    
-    <item>
-      <title>Theme Overrides</title>
-      <link>https://omnigram.nexptr.com/zh/docs/overview/theme-overrides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://omnigram.nexptr.com/zh/docs/overview/theme-overrides/</guid>
-      <description>Custom CSS and JS To minimize HTTP requests per page, we would recommend loading CSS styles and JavaScript helpers in single bundles. That is to say, one CSS file and one JavaScript file. Using Hugo minify functions, these files will be minified to optimize the size.
-Going by the above 👆🏻 reason, we recommend adding custom CSS and JS via the custom SASS file (Compose, Clarity) and the custom JS file (Compose, Clarity).</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>概览 on Omnigram App Docs</title><link>https://omnigram.nexptr.com/zh/docs/overview/</link><description>Recent content in 概览 on Omnigram App Docs</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://omnigram.nexptr.com/zh/docs/overview/index.xml" rel="self" type="application/rss+xml"/><item><title>快速入门</title><link>https://omnigram.nexptr.com/zh/docs/overview/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://omnigram.nexptr.com/zh/docs/overview/getting-started/</guid><description>本文旨在快速完成后端部署和使用，如果需要自定义的一些配置请参阅部署文档
+环境依赖 请查阅环境要求
+Docker 启动 默认情况下docker启动以后将创建默认管理员账号admin，密码默认为123456。
+默认密码为123456，可以后续登录后更改，或者通过设置OMNI_PASSWORD变量进行更改。 my_local_docs_path应该修改未自己实际存有Epub，PDF目录，登陆后可以设置扫描策略从而建立文件索引； 如果需要持久运行请参阅最佳部署实践 1# 替换如下名字中 my_local_docs_path 未自己实际的文档目录 2docker run -v &amp;lt;my_local_docs_path&amp;gt;:documents -p 8080:8080 omnigram-server:v0.0.3 尝试手机端访问 下载App 手机端应用可以从如下地址下载：
+谷歌商城 苹果商城 Github(apk) 登陆App //TODO add login page
+扫描本地文件目录 //TODO add scan page
+开始阅读 //TODO add reading page
+接下来可以做什么 上述文档只是为了快速入门级的部署和体验，如果期待「读享」的完整的服务功能和体验。请前往 最佳部署实践</description></item><item><title>项目支持</title><link>https://omnigram.nexptr.com/zh/docs/overview/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://omnigram.nexptr.com/zh/docs/overview/support/</guid><description>我对这个项目有着坚定的承诺。我将持续更新文档，添加新功能，并修复错误。但是这是一个庞大的任务，我不能独自完成这一切，因此我需要你的帮助，给予我额外的动力以便坚持下去。
+如果你觉得这是一个有价值的项目，而且你可以想象自己长时间使用这个应用，请考虑通过以下选项之一来支持这个项目。
+贡献 有很多方式可以为「读享」做出贡献。
+测试： 使用「读享」并报告错误是支持该项目的一种很好的方式。发现了BUG吗？那么请在 GitHub 上开启提交Issue吧。
+翻译： 到目前为止，「读享」移动应用已经只支持中英两种语言！要贡献翻译，请通过电子邮件联系我，邮箱地址是 omnigram@nexptr.com ,或者在Github上给我发送消息。
+开发： - 如果你是程序员或开发者，请查看「读享」的技术栈，考虑修复错误或构建新功能。我们团队一直在寻找新的贡献者。有关如何作为开发者贡献的信息，请参阅“开发者”部分。</description></item></channel></rss>

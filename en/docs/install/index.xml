@@ -1,10 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Install on Omnigram App Docs</title>
-    <link>https://omnigram.nexptr.com/en/docs/install/</link>
-    <description>Recent content in Install on Omnigram App Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://omnigram.nexptr.com/en/docs/install/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Install on Omnigram App Docs</title><link>https://omnigram.nexptr.com/en/docs/install/</link><description>Recent content in Install on Omnigram App Docs</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://omnigram.nexptr.com/en/docs/install/index.xml" rel="self" type="application/rss+xml"/><item><title>Best Practice For Install</title><link>https://omnigram.nexptr.com/en/docs/install/best_practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://omnigram.nexptr.com/en/docs/install/best_practice/</guid><description/></item><item><title>Requirements</title><link>https://omnigram.nexptr.com/en/docs/install/requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://omnigram.nexptr.com/en/docs/install/requirements/</guid><description>Software Dependencies Docker
+Hardware Requirements System: Unix-like systems (Ubuntu, Debian, CentOS, MacOS, etc.) [preferred], Windows; Memory: Minimum 1GB, recommended 4GB or more CPU: Minimum 2 cores, recommended 4 cores or more GPU: If using the localized AI audiobook feature and AI-assisted reading, vRAM of 8GB or more is required</description></item></channel></rss>
